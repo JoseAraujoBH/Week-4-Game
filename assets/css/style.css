@@ -1,0 +1,78 @@
+.container {
+	text-align: center;
+}
+
+.middleContainer {
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.crystal {
+	border: 1px solid green;
+	height: 200px;
+	width: 200px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+	transition: box-shadow 1s;
+}
+
+.crystal:hover{
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, 1);
+	padding: .5px;
+	cursor: pointer;
+	transition: box-shadow 1s;
+}
+
+.crystals {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#previous {
+	font-weight: 900;
+	color: whitesmoke;
+	border-style: solid;
+	border-width: 1px;
+	padding: 50px;
+	margin-right: 500px;
+	margin-left: 30px;
+}
+
+#win {
+	font-weight: 900;
+	color: whitesmoke;
+	border-style: solid;
+	border-width: 1px;
+	padding: 50px;
+	margin-right: 500px;
+	margin-left: 30px;
+}
+
+#lost {
+	font-weight: 900;
+	color: whitesmoke;
+	border-style: solid;
+	border-width: 1px;
+	padding: 50px;
+	margin-right: 500px;
+	margin-left: 30px;
+}
+
+#result {
+	font-weight: 900;
+	color: whitesmoke;
+	border-style: solid;
+	border-width: 1px;
+	padding: 50px;
+	margin-right: 500px;
+	margin-left: 30px;
+}
+
+body {
+	background:url('../images/starry.jpg');
+	text-align: center;
+	font-size: 25px;
+	max-width: 1000px;
+}
